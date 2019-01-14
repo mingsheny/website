@@ -1,0 +1,116 @@
+<!DOCTYPE html><html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My CSS experiment</title>
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <style>
+        h1 {
+            color: blue;
+            width: 250px;
+            height: 50px;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            background-color: yellow;
+            border: 3px dashed rgb(17, 193, 224);
+        }
+
+        h2 {
+            color: blue;
+            width: 300px;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            background-color: red;
+            border: 3px dashed rgb(17, 193, 224);
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+
+    <style>
+        .first {
+            font-weight: bold;
+        }
+
+        .done {
+            text-decoration: line-through;
+            color: teal;
+        }
+    </style>
+    <style>
+        #polite {
+            font-family: cursive;
+        }
+
+        #rude {
+            font-family: monospace;
+            text-transform: uppercase;
+        }
+
+        /* These styles will style our link   in all states */
+        a {
+            color: blue;
+            font-weight: bold;
+        }
+
+        /* We want visited links to be the same color   as non visited links */
+        a:visited {
+            color: blue;
+        }
+
+        /* We highlight the link when it is   hovered over (mouse over), activated (mouse down)   or focused (keyboard) */
+        a:hover,
+        a:active,
+        a:focus {
+            color: darkred;
+            text-decoration: none;
+        }
+
+        p {
+            margin: 5px;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: cyan;
+        }
+
+        p:nth-child(1) {
+            width: 150px;
+            font-size: 18px;
+        }
+
+        p:nth-child(2) {
+            width: 500px;
+            font-size: 24px;
+        }
+
+        p:nth-child(3) {
+            width: 350px;
+            font-size: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Hola! Glacias! </h1>
+    <h1>Adios!</h1>
+    <p>This is my first CSS example</p>
+    <ul>
+        <li id="polite" class="first done">Create an HTML document</li>
+        <li class="second done">Create a CSS style sheet</li>
+        <li class="third">Link them all together</li>
+    </ul>
+    <p id="polite">— "Good morning."</p>
+    <p id="rude">— "Go away!"</p>
+
+    <a href="https://developer.mozilla.org/" target="_blank">Mozilla Developer Network</a>
+
+    <h2>你好！我是哈哈人</h2>
+
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+
+</body>
+
+</html>
